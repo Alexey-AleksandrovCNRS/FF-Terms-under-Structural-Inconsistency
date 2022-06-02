@@ -17,7 +17,7 @@ data for "Force Field Bonded Terms under Structural Inconsistency"
                                       'print_stat.run' : script to print statistics on optimized parameters
                                       'random_[1..5]' : 5 optimization runs 
                                       'molecule/' 'add_para.inp' : optimized CHARMM parameters
-																									'start.pdb' : initial geometry
+						  'start.pdb' : initial geometry
                                                   'top.inp'   : topology file
                                                   'opt1.out' and 'opt1.pdb' : g16 optimization output and geometry
                                                   'restrdihe.inp' : restraints for soft dihedrals
@@ -29,9 +29,9 @@ data for "Force Field Bonded Terms under Structural Inconsistency"
                                                   'intra.out' : optimization output
                                                   'bond/' : G16 PES scans
                                                           'fc.inp/fc.out' : force constant estimation
-																													'xx.scan.inp' : PES scan
-																													'qm_ref.dat'  : QM PES energies
-																													'charmm.results.dat' : CHARMM PES energies
+							  'xx.scan.inp' : PES scan
+							  'qm_ref.dat'  : QM PES energies
+							  'charmm.results.dat' : CHARMM PES energies
 
 "program/"          'developer.exe' : the program to optimize force field parameters; 
                     'charmm/' : charmm scripts for minimization; 
