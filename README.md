@@ -4,7 +4,8 @@ data for "Force Field Bonded Terms under Structural Inconsistency"
 "list.residues" list of residues in the data set
 
 "nma/"              optimization of CHARMM force field parameters for bond and angle terms; and normal mode analysis;
-                    
+                    'nma.charmm.inp/out' : CHARMM script/output for NMA analysis
+		    'nma.inp/out' : G16 script/output for NMA analysis
 
 
 "stability_test/"   the stability test on the optimized force field parameters.
